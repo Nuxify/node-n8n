@@ -1,21 +1,19 @@
-version: '3.8'
-
 services:
   n8n:
     image: n8nio/n8n:2.16.1
     container_name: ${N8N_NAME}
     mem_limit: "3g"
     restart: unless-stopped
-    environment:
-      - N8N_EDITOR_BASE_URL=https://${N8N_API_URL}
-      - WEBHOOK_URL=https://${N8N_API_URL}
-      - N8N_PORT=${N8N_API_PORT}
     logging:
       driver: "json-file"
       options:
         max-size: "1m"
     networks:
       - proxy
+    environment:
+      - N8N_EDITOR_BASE_URL=https://${N8N_API_URL}
+      - WEBHOOK_URL=https://${N8N_API_URL}
+      - N8N_PORT=${N8N_API_PORT}
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - n8n_data:/home/node/.n8n
