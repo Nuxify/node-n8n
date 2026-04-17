@@ -16,7 +16,11 @@ Refer to official N8N site: <https://docs.n8n.io/>
 
 1. Clone <https://github.com/Nuxify/node-n8n>
 
-2. Create .env file from .env.example
+2. Create .env file from .env.example and assign the environment variables
+
+     ```bash
+    cp .env.example .env
+    ```
 
 3. Up the n8n container
 
