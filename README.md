@@ -28,10 +28,4 @@ Refer to official N8N site: <https://docs.n8n.io/>
     make up
     ```
 
-4. Access the n8n editor at - TODO
-
-5. Create owner account
-
-6. Create workflows
-
 Made with ❤️ at [Nuxify](https://nuxify.tech)
