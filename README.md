@@ -1,6 +1,6 @@
 # N8N Base
 
-Self hosted n8n server using docker and traefik.
+Self hosted n8n server using docker compose and traefik.
 
 ## Traefik Documentation
 
@@ -19,11 +19,14 @@ Refer to official N8N site: <https://docs.n8n.io/>
 2. Create .env file from .env.example
 
 3. Up the n8n container
-
-```bash
-make up
-```
+    ```bash
+    make up
+    ```
 
 4. Access the n8n editor at - TODO
+
+5. Create owner account
+
+6. Create workflows
 
 Made with ❤️ at [Nuxify](https://nuxify.tech)
