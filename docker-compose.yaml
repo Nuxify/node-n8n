@@ -1,6 +1,6 @@
 services:
   n8n:
-    image: n8nio/n8n:2.16.1
+    image: n8nio/n8n:2.29.10
     container_name: ${N8N_NAME}
     mem_limit: "3g"
     restart: unless-stopped
