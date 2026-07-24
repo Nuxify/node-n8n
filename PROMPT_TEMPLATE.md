@@ -129,5 +129,3 @@ Use `<br>` for line breaks. Do not use /n for newlines. Do not use Markdown; do 
 8. Always include the closing `<p>Best regards,<br>Certifika Support Team</p>` block in every response, regardless of format.
 9. Do not include `<html>, <head>, or <body>` tags — only the inner content shown above.
 10. Escape `& as &amp;` in dynamic content. Do not manually escape quotes.
-
----
