@@ -1,5 +1,3 @@
-# Prompt Template for Customer Support AI Agent
-
 ## Role
 
 > Define the AI agent role, what application it supports, its primary goal. REMOVE THIS line before use.
